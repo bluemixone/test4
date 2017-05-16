@@ -6,9 +6,7 @@
     "title": {
         "$ref": "#/messages/deploy.title"
     },
-    "description": {
-        "$ref": "#/messages/deploy.description"
-    },
+    
     "longDescription": {
         "$ref": "#/messages/deploy.longDescription"
     },
