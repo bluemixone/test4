@@ -17,8 +17,8 @@ template:
     - ui-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/toolchain-demo](https://github.com/open-toolchain/toolchain-demo)
-    git branch: '[master](https://github.com/open-toolchain/toolchain-demo/tree/master)'
+      [https://github.com/bluemixone/test4](https://github.com/bluemixone/test4)
+    git branch: '[master](https://github.com/bluemixone/test4)'
 toolchain:
   name: 'toolchain-demo-{{timestamp}}'
   template:
@@ -154,6 +154,6 @@ form:
       orders-api-repo_name: 'orders-api-{{toolchain.name}}'
       orders-api-repo_url: 'https://github.com/open-toolchain/Microservices_OrdersAPI'
       ui-repo_name: 'ui-{{toolchain.name}}'
-      ui-repo_url: 'https://github.com/open-toolchain/Microservices_UI'
+      ui-repo_url: 'https://github.com/bluemixone/test4'
     schema:
       $ref: github.json
