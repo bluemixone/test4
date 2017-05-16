@@ -145,8 +145,7 @@ form:
       orders-app-name: '{{services.orders-api-repo.parameters.repo_name}}'
       catalog-app-name: '{{services.catalog-api-repo.parameters.repo_name}}'
       ui-app-name: '{{services.ui-repo.parameters.repo_name}}'
-    schema:
-      $ref: deploy.json
+    
   githubpublic:
     parameters:
       catalog-api-repo_name: 'catalog-api-{{toolchain.name}}'
