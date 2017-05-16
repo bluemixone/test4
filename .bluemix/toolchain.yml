@@ -155,5 +155,3 @@ form:
       orders-api-repo_url: 'https://github.com/open-toolchain/Microservices_OrdersAPI'
       ui-repo_name: 'ui-{{toolchain.name}}'
       ui-repo_url: 'https://github.com/bluemixone/test4'
-    schema:
-      $ref: github.json
